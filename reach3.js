@@ -1,7 +1,5 @@
-var text=" veterans "
 var speed=80
 if (document.all||document.getElementById){
-document.write('<span id="highlight">' + text + '</span>')
 var storetext=document.getElementById? document.getElementById("highlight") : document.all.highlight
 }
 else
