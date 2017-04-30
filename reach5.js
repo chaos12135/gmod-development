@@ -1,6 +1,6 @@
 var speed=80
 if (document.all||document.getElementById){
-var storetext=document.getElementById? document.getElementById("highlight") : document.all.highlight
+var storetext=document.getElementById? document.getElementById("highlight2") : document.all.highlight2
 }
 else
 document.write(text)
