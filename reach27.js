@@ -8,7 +8,7 @@ var seq=1
 
 function changetext() {
 	rainbow="#"+hex[r]+hex[g]+hex[b]
-	$('.highlight2').css('color' : rainbow );
+	$('.highlight2').css('color', rainbow );
 	//storetext.style.color=rainbow
 }
 
