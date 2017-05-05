@@ -1,8 +1,10 @@
 var speed=80
 
 if (document.all||document.getElementById){
-	var storetext=document.getElementById? document.getElementById("highlight2") : document.all.highlight2
+	//var storetext=document.getElementById? document.getElementById("highlight2") : document.all.highlight2
+	var storetext=$('.highlight2').html( days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
 } else {
+	//document.write(text)
 	document.write(text)
 }
 
