@@ -1,11 +1,9 @@
 var speed=80
 if (document.all||document.getElementById){
 var storetext=document.getElementById? document.getElementById("highlight2") : document.all.highlight2
-$('.highlight2').html( text );
 }
 else
-$('.highlight2').html( text );
-//document.write(text)
+document.write(text)
 var hex=new Array("00","14","28","3C","50","64","78","8C","A0","B4","C8","DC","F0")
 var r=1
 var g=1
