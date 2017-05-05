@@ -9,10 +9,11 @@ if (document.all||document.getElementById){
 	var g=1
 	var b=1
 	var seq=1
-	function changetext() {
-		rainbow="#"+hex[r]+hex[g]+hex[b]
-		storetext.style.color=rainbow
-	}
+}
+
+function changetext() {
+	rainbow="#"+hex[r]+hex[g]+hex[b]
+	storetext.style.color=rainbow
 }
 
 function change(){
