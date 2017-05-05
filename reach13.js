@@ -1,6 +1,7 @@
 var speed=80
 if (document.all||document.getElementById){
 var storetext=document.getElementById? document.getElementById("highlight2") : document.all.highlight2
+$('.highlight2').html( text );
 }
 else
 $('.highlight2').html( text );
